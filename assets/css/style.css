@@ -88,7 +88,10 @@ h6 {
   display: block;
   width: 120px;
   border: 8px solid #2c2f3f;
+  border-radius: 0 !important; /* Add !important to ensure it takes precedence */
 }
+
+
 
 #header .profile h1 {
   font-size: 24px;
